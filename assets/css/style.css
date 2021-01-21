@@ -24,12 +24,15 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
-.time-block{
+/* .time-block{
   text-align: center;
   border-radius: 15px;
-}
+  background-color: rgb(189, 224, 185);
+} */
 
 .row {
   white-space: pre-wrap;
@@ -46,17 +49,33 @@ textarea{
 .past {
   background-color: #d3d3d3;
   color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  
 }
+
 
 .present {
   background-color: #ff6961;
   color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
+
 
 .future {
   background-color: #77dd77;
   color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
+
 
 .saveBtn {
   border-left: 1px solid black;
@@ -79,32 +98,27 @@ textarea{
 }
 
 .timeDiv {
-  border-top: solid black 2px;
-  border-bottom: solid black 2px;
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 
-.submitBtn {
+/* .submitBtn {
   background-color:rgb(127, 127, 197);
   border-radius: 0 12% 12% 0;
   border: solid black 2px;
   display: flex;
   align-items: center;
+} */
+
+.time-block{
+  text-align: center;
+  border-radius: 15px 0 0 15px;
+  background-color: rgb(189, 224, 185);
 }
 
-.noPadding {
-  padding-left: 0;
-  padding-right: 0;
-}
 
-.description {
-  border-top: solid black 2px;
-  border-bottom: solid black 2px;
-}
 
-.past-time {
-  background-color: gray;
-}
