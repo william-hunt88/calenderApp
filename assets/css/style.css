@@ -3,6 +3,7 @@ body {
   font-size: 16px;
   line-height: 1;
   background-color: hsl(140, 100%, 96%);
+  margin-bottom: 50px;
 }
 
 textarea{
@@ -83,11 +84,12 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  font-size: 3em;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all .3s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
 
 .event {

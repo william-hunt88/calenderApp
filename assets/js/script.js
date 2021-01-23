@@ -1,7 +1,7 @@
 document.getElementById("currentDay").innerHTML = moment().format("MMMM Do YYYY");
 
 // loads tasks from local storage
-for(var i = 9; i < 13; i++){
+for(var i = 9; i < 18; i++){
   $(`#hour-${i} .description`).val(localStorage.getItem(i));
 
 };
@@ -22,7 +22,7 @@ setInterval(function() {
 
  
  
-  //Click event target for submit button
+  //Click event target for submit button and saves description to local storage 
 $(".saveBtn").on("click", function(){
   var key = $(this).parent().attr("data-hour");
   var value = $(this).siblings(".description").val();
